@@ -1,0 +1,12 @@
+\documentclass{article}
+    \usepackage[margin=0.7in]{geometry}    
+    \usepackage[parfill]{parskip}    \usepackage[utf8]{inputenc}
+    \usepackage{amsmath}    \usepackage{amssymb}    \usepackage{mathrsfs}
+    \usepackage{changepage} \usepackage{parselines} 
+\begin{document}
+
+
+
+
+
+\end{document}
