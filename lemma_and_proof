@@ -1,13 +1,19 @@
-\begin{adjustwidth}{0.5cm}{}
-    \textbf{Lemma}: 
-    \begin{adjustwidth}{1cm}{}
-        $|a_n| \leqslant 50^n$ for all $n$.
+\fbox{
+    \begin{minipage}{50em}
+    \begin{adjustwidth}{0.25cm}{}
+        \textbf{Lemma}: 
+        \begin{adjustwidth}{0.5cm}{}
+            $|a_n| \leqslant 50^n$ for all $n$.
+        \end{adjustwidth}
     \end{adjustwidth}
-\end{adjustwidth}
 
-\begin{adjustwidth}{0.5cm}{}
-    \textbf{Proof}:
-    \begin{adjustwidth}{1cm}{}
-        By mathematical induction. It's true for $n=0,1$, and then supposing it's true for $0,1,\ldots,k-1$, we have $$ a_k \leqslant 20 | a_{k-1} | + 108 |a_{k-2} | \leqslant 20 \cdot 50^{k-1} + 108 \cdot 50^{k-2} = 50^k \left( \dfrac 25 + \dfrac{108}{2500} \right) < 50^k$$
+    \vspace{10pt}
+    
+    \begin{adjustwidth}{0.25cm}{}
+        \textbf{Proof}:
+        \begin{adjustwidth}{1cm}{}
+            By mathematical induction. It's true for $n=0,1$, and then supposing it's true for $0,1,\ldots,k-1$, we have $$ a_k \leqslant 20 | a_{k-1} | + 108 |a_{k-2} | \leqslant 20 \cdot 50^{k-1} + 108 \cdot 50^{k-2} = 50^k \left( \dfrac 25 + \dfrac{108}{2500} \right) < 50^k$$
+        \end{adjustwidth}
     \end{adjustwidth}
-\end{adjustwidth}
+  \end{minipage} 
+  }
