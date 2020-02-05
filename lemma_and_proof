@@ -1,0 +1,23 @@
+\begin{adjustwidth}{0.5cm}{}
+    \textbf{Lemma}: 
+    \begin{adjustwidth}{1cm}{}
+        If $n$ is a positive integer that is not a square of an integer, then $\sqrt n$ is irrational.
+    \end{adjustwidth}
+\end{adjustwidth}
+
+\begin{adjustwidth}{0.5cm}{}
+    \textbf{Proof}:
+
+    \begin{adjustwidth}{1cm}{}
+        This proof does not use any divisibility properties.
+
+        Let $k$ be such that $k^2 < n < (k+1)^2 $. Suppose $\sqrt n$ is rational. Then there is a smallest positive integer $q$ such that $\sqrt n = \frac pq$. Then, 
+
+        $$ \sqrt n = \sqrt n = \frac{\sqrt n - \sqrt k}{\sqrt n - \sqrt k} = \frac{n - k\sqrt n}{\sqrt n - k} = \frac{n - k \frac pq}{\frac pq - k} = \frac{nq - kp}{p - kq}$$
+
+        Since $ k < \sqrt n < k + 1 $, then $ k < \frac pq < k + 1 $ or $ kq < p < (k+1)q $, so $ 0 < p - kq$.
+
+        We have thus found a representation of $ \sqrt n $ with a smaller denominator, which contradicts the specification of $q$.
+    \end{adjustwidth}
+    
+\end{adjustwidth}
