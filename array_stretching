@@ -1,0 +1,13 @@
+\def\arraystretch{1.5}
+\begin{array}{c|c|c|c|c|}
+&1&2&3&4\\
+\hline
+A&&H&&J\\
+\hline
+B&&G&&K\\
+\hline
+C&E&F&Z&L\\
+\hline
+D&&X&Y&\\
+\hline
+\end{array}
